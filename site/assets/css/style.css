@@ -46,6 +46,12 @@ header {
 }
 .hero { font-size: 1.05rem; }
 img { width: 100%; border-radius: 10px; }
+
+.product-img {
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  border: 1px solid #e5e7eb;
+}
 ul { padding-left: 1.2rem; }
 .cta {
   display: inline-block;
