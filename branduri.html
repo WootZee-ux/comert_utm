@@ -1,9 +1,117 @@
 <!doctype html>
 <html lang="ro">
-<head><meta charset="UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0" /><title>Branduri - AudioHub</title><link rel="stylesheet" href="styles.css" /></head>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Branduri - AudioHub</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
 <body>
-<div class="topbar"><div class="container"><p>Consultanță audio: <strong>+40 770 564 417</strong></p><p>Livrare rapidă | Instalare profesională | Support B2B</p></div></div>
-<header class="site-header"><div class="container header-main"><a class="logo" href="index.html">AudioHub</a><form class="search" action="#" method="get"><input type="search" placeholder="Caută boxe, căști, amplificatoare..." /><button type="submit">Caută</button></form><div class="header-actions"><a href="#">Contul meu</a><a href="#">Favorite</a><a href="#">Coș (0)</a></div></div><nav class="main-nav"><div class="container"><a href="categorii.html">Categorii</a><a href="promotii.html">Promoții</a><a href="produse.html">Produse populare</a><a href="branduri.html">Branduri</a><a href="servicii.html">Servicii</a><a href="contact.html">Contact</a></div></nav></header>
-<main class="container"><section class="section brands page-section"><h1>Branduri căutate</h1><div class="brand-list"><span>Yamaha</span><span>Sony</span><span>JBL</span><span>Klipsch</span><span>Sennheiser</span><span>Denon</span></div></section></main>
-<footer><div class="container footer-content"><p>© 2026 AudioHub. Toate drepturile rezervate.</p></div></footer>
-</body></html>
+  <div class="topbar">
+    <div class="container">
+      <p>Consultanță audio: <strong>+40 770 564 417</strong></p>
+      <p>Livrare rapidă | Instalare profesională | Support B2B</p>
+    </div>
+  </div>
+
+  <header class="site-header">
+    <div class="container header-main">
+      <a class="logo" href="index.html">AudioHub</a>
+      <form class="search" action="#" method="get">
+        <input type="search" placeholder="Caută boxe, căști, amplificatoare..." />
+        <button type="submit">Caută</button>
+      </form>
+      <div class="header-actions">
+        <a href="#">Contul meu</a>
+        <a href="#">Favorite</a>
+        <a href="#" class="js-cart-count">Coș (0)</a>
+      </div>
+    </div>
+    <nav class="main-nav">
+      <div class="container">
+        <a href="categorii.html">Categorii</a>
+        <a href="promotii.html">Promoții</a>
+        <a href="produse.html">Produse audio</a>
+        <a href="branduri.html">Branduri</a>
+        <a href="servicii.html">Servicii</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="section brands page-section">
+      <h1>Branduri disponibile</h1>
+      <p>Am adăugat produse reprezentative pentru fiecare brand, ca pagina să fie utilă.</p>
+
+      <div class="brand-list">
+        <span>Sony</span><span>JBL</span><span>Bose</span><span>Yamaha</span><span>Sennheiser</span><span>Audio-Technica</span>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-head">
+        <h2>Produse recomandate pe brand</h2>
+      </div>
+
+      <div class="product-grid">
+        <article class="product-card">
+          <img src="https://images.pexels.com/photos/3394658/pexels-photo-3394658.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Căști Sennheiser Accentum" />
+          <p class="product-category">Sennheiser</p>
+          <h3>Sennheiser Accentum</h3>
+          <p>Căști wireless over-ear cu ANC și autonomie extinsă.</p>
+          <div class="price-row">
+            <strong>849 lei</strong>
+            <button class="btn-cart js-add-to-cart" data-type="brand" data-name="Sennheiser Accentum" data-price="849">Adaugă în coș</button>
+          </div>
+        </article>
+
+        <article class="product-card">
+          <img src="https://images.pexels.com/photos/164938/pexels-photo-164938.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Boxă Sony SRS-XG300" />
+          <p class="product-category">Sony</p>
+          <h3>Sony SRS-XG300</h3>
+          <p>Boxă portabilă puternică pentru petreceri și utilizare outdoor.</p>
+          <div class="price-row">
+            <strong>1.199 lei</strong>
+            <button class="btn-cart js-add-to-cart" data-type="brand" data-name="Sony SRS-XG300" data-price="1199">Adaugă în coș</button>
+          </div>
+        </article>
+
+        <article class="product-card">
+          <img src="https://images.pexels.com/photos/1038916/pexels-photo-1038916.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Microfon Audio-Technica AT2040" />
+          <p class="product-category">Audio-Technica</p>
+          <h3>Audio-Technica AT2040</h3>
+          <p>Microfon dinamic pentru podcast și voice-over cu zgomot redus.</p>
+          <div class="price-row">
+            <strong>599 lei</strong>
+            <button class="btn-cart js-add-to-cart" data-type="brand" data-name="Audio-Technica AT2040" data-price="599">Adaugă în coș</button>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section cart-panel">
+      <div class="section-head">
+        <h2>Coșul tău</h2>
+      </div>
+      <ul class="cart-items js-cart-items">
+        <li>Coșul este gol momentan.</li>
+      </ul>
+      <p class="cart-total">Total: <strong class="js-cart-total">0 lei</strong></p>
+      <div class="cart-actions">
+        <button class="btn primary js-checkout">Simulează plata</button>
+        <button class="btn js-clear-cart">Golește coșul</button>
+      </div>
+      <p class="payment-status js-payment-status"></p>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-content">
+      <p>© 2026 AudioHub. Toate drepturile rezervate.</p>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
