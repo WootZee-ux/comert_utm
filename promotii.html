@@ -1,9 +1,109 @@
 <!doctype html>
 <html lang="ro">
-<head><meta charset="UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0" /><title>Promoții - AudioHub</title><link rel="stylesheet" href="styles.css" /></head>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Promoții - AudioHub</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
 <body>
-<div class="topbar"><div class="container"><p>Consultanță audio: <strong>+40 770 564 417</strong></p><p>Livrare rapidă | Instalare profesională | Support B2B</p></div></div>
-<header class="site-header"><div class="container header-main"><a class="logo" href="index.html">AudioHub</a><form class="search" action="#" method="get"><input type="search" placeholder="Caută boxe, căști, amplificatoare..." /><button type="submit">Caută</button></form><div class="header-actions"><a href="#">Contul meu</a><a href="#">Favorite</a><a href="#">Coș (0)</a></div></div><nav class="main-nav"><div class="container"><a href="categorii.html">Categorii</a><a href="promotii.html">Promoții</a><a href="produse.html">Produse populare</a><a href="branduri.html">Branduri</a><a href="servicii.html">Servicii</a><a href="contact.html">Contact</a></div></nav></header>
-<main class="container"><section class="section page-section"><h1>Promoții rapide</h1><div class="hero-offers standalone-offers"><ul><li><span>Soundbar-uri</span><strong>-18%</strong></li><li><span>Căști ANC</span><strong>-12%</strong></li><li><span>Boxe portabile</span><strong>-22%</strong></li><li><span>Pachete Home Cinema</span><strong>-15%</strong></li></ul></div></section></main>
-<footer><div class="container footer-content"><p>© 2026 AudioHub. Toate drepturile rezervate.</p></div></footer>
-</body></html>
+  <div class="topbar">
+    <div class="container">
+      <p>Consultanță audio: <strong>+40 770 564 417</strong></p>
+      <p>Livrare rapidă | Instalare profesională | Support B2B</p>
+    </div>
+  </div>
+
+  <header class="site-header">
+    <div class="container header-main">
+      <a class="logo" href="index.html">AudioHub</a>
+      <form class="search" action="#" method="get">
+        <input type="search" placeholder="Caută boxe, căști, amplificatoare..." />
+        <button type="submit">Caută</button>
+      </form>
+      <div class="header-actions">
+        <a href="#">Contul meu</a>
+        <a href="#">Favorite</a>
+        <a href="#" class="js-cart-count">Coș (0)</a>
+      </div>
+    </div>
+    <nav class="main-nav">
+      <div class="container">
+        <a href="categorii.html">Categorii</a>
+        <a href="promotii.html">Promoții</a>
+        <a href="produse.html">Produse audio</a>
+        <a href="branduri.html">Branduri</a>
+        <a href="servicii.html">Servicii</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="section page-section">
+      <div class="section-head">
+        <h1>Promoții active</h1>
+      </div>
+      <p>Am păstrat doar promoții pe produse audio reale, existente pe piață.</p>
+
+      <div class="product-grid">
+        <article class="product-card">
+          <img src="https://images.pexels.com/photos/3394658/pexels-photo-3394658.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Sony WH-CH720N" />
+          <p class="product-category">Căști wireless</p>
+          <h3>Sony WH-CH720N</h3>
+          <p>Reducere sezonieră pentru model ANC accesibil.</p>
+          <div class="price-row">
+            <strong>549 lei</strong>
+            <button class="btn-cart js-add-to-cart" data-type="promoție" data-name="Sony WH-CH720N" data-price="549">Adaugă oferta</button>
+          </div>
+        </article>
+
+        <article class="product-card">
+          <img src="https://images.pexels.com/photos/577769/pexels-photo-577769.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Anker Soundcore Motion+" />
+          <p class="product-category">Boxe portabile</p>
+          <h3>Anker Soundcore Motion+</h3>
+          <p>Boxă Bluetooth stereo cu raport preț/performanță foarte bun.</p>
+          <div class="price-row">
+            <strong>429 lei</strong>
+            <button class="btn-cart js-add-to-cart" data-type="promoție" data-name="Anker Soundcore Motion+" data-price="429">Adaugă oferta</button>
+          </div>
+        </article>
+
+        <article class="product-card">
+          <img src="https://images.pexels.com/photos/6782474/pexels-photo-6782474.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Samsung HW-Q700C" />
+          <p class="product-category">Soundbar</p>
+          <h3>Samsung HW-Q700C</h3>
+          <p>Reducere la pachet home cinema cu Dolby Atmos.</p>
+          <div class="price-row">
+            <strong>1.799 lei</strong>
+            <button class="btn-cart js-add-to-cart" data-type="promoție" data-name="Samsung HW-Q700C" data-price="1799">Adaugă oferta</button>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section cart-panel">
+      <div class="section-head">
+        <h2>Coșul tău</h2>
+      </div>
+      <ul class="cart-items js-cart-items">
+        <li>Coșul este gol momentan.</li>
+      </ul>
+      <p class="cart-total">Total: <strong class="js-cart-total">0 lei</strong></p>
+      <div class="cart-actions">
+        <button class="btn primary js-checkout">Simulează plata</button>
+        <button class="btn js-clear-cart">Golește coșul</button>
+      </div>
+      <p class="payment-status js-payment-status"></p>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-content">
+      <p>© 2026 AudioHub. Toate drepturile rezervate.</p>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
