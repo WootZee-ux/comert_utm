@@ -1,9 +1,9 @@
 :root {
-  --bg: #f5f7fb;
-  --text: #1f2937;
-  --accent: #2b6cb0;
-  --accent-2: #7c3aed;
-  --card: #ffffff;
+  --bg: #0b1020;
+  --text: #e5e7eb;
+  --accent: #0ea5e9;
+  --accent-2: #8b5cf6;
+  --card: #121a2f;
 }
 * { box-sizing: border-box; }
 body {
@@ -42,7 +42,8 @@ header {
   background: var(--card);
   border-radius: 14px;
   padding: 1rem;
-  box-shadow: 0 4px 20px rgba(0,0,0,.08);
+  box-shadow: 0 4px 20px rgba(0,0,0,.35);
+  border: 1px solid #1f2a44;
 }
 .hero { font-size: 1.05rem; }
 img { width: 100%; border-radius: 10px; }
@@ -50,7 +51,7 @@ img { width: 100%; border-radius: 10px; }
 .product-img {
   aspect-ratio: 4 / 3;
   object-fit: cover;
-  border: 1px solid #e5e7eb;
+  border: 1px solid #334155;
 }
 ul { padding-left: 1.2rem; }
 .cta {
@@ -62,11 +63,11 @@ ul { padding-left: 1.2rem; }
   border-radius: 10px;
   text-decoration: none;
 }
-.price { font-size: 1.6rem; font-weight: 700; color: var(--accent-2); }
+.price { font-size: 1.6rem; font-weight: 700; color: #93c5fd; }
 footer {
   text-align: center;
   padding: 2rem 1rem;
-  color: #6b7280;
+  color: #94a3b8;
 }
 @media (min-width: 700px) {
   .nav { flex-direction: row; flex-wrap: wrap; }
