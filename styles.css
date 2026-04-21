@@ -1,0 +1,139 @@
+:root {
+  --bg: #0b1020;
+  --panel: #151d35;
+  --text: #edf1ff;
+  --muted: #b6c0e6;
+  --primary: #5f8cff;
+  --accent: #29d3b2;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Inter, Arial, sans-serif;
+  color: var(--text);
+  background: linear-gradient(180deg, #0b1020 0%, #101934 100%);
+  line-height: 1.6;
+}
+
+.hero {
+  min-height: 70vh;
+  padding: 1.25rem 2rem 3rem;
+  background: radial-gradient(circle at top right, #22376f 0%, #0b1020 65%);
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 4rem;
+}
+
+.logo {
+  font-weight: 800;
+  font-size: 1.3rem;
+  letter-spacing: 0.5px;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 1.2rem;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar a {
+  color: var(--muted);
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  color: var(--text);
+}
+
+.hero-content {
+  max-width: 700px;
+}
+
+.hero-content h1 {
+  font-size: clamp(2rem, 4vw, 3.2rem);
+  margin-bottom: 1rem;
+}
+
+.hero-content p {
+  color: var(--muted);
+  margin-bottom: 1.6rem;
+}
+
+.cta {
+  display: inline-block;
+  background: linear-gradient(90deg, var(--primary), var(--accent));
+  color: #fff;
+  text-decoration: none;
+  font-weight: 700;
+  padding: 0.8rem 1.2rem;
+  border-radius: 10px;
+}
+
+.section {
+  padding: 3rem 2rem;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.section h2 {
+  margin-top: 0;
+}
+
+.alt {
+  background: rgba(255, 255, 255, 0.03);
+  border-radius: 16px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1rem;
+}
+
+.card {
+  background: var(--panel);
+  padding: 1rem;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.card h3 {
+  margin-top: 0;
+}
+
+.services {
+  margin: 0;
+  padding-left: 1.2rem;
+}
+
+footer {
+  text-align: center;
+  color: var(--muted);
+  padding: 1.5rem 1rem 2rem;
+}
+
+@media (max-width: 700px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.8rem;
+  }
+
+  .hero {
+    padding: 1rem 1rem 2rem;
+  }
+
+  .section {
+    padding: 2rem 1rem;
+  }
+}
