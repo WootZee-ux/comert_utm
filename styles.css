@@ -137,6 +137,14 @@ footer {
   padding: 1.4rem;
 }
 
+.hero-media {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 12px;
+  margin-bottom: 1rem;
+}
+
 .badge {
   display: inline-block;
   margin: 0;
@@ -242,6 +250,14 @@ footer {
   border-radius: 12px;
   padding: 0.95rem;
   background: #fafbff;
+}
+
+.tile img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 0.7rem;
 }
 
 .tile h3,
