@@ -783,6 +783,12 @@ footer {
   color: #f3f7ff;
 }
 
+.account-page h1,
+.account-page h2,
+.account-page h3 {
+  color: #eef3ff;
+}
+
 .account-page .search input {
   background: #0d162f;
   border-color: #33436f;
