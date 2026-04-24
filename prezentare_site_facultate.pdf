@@ -1,10 +1,9 @@
 %PDF-1.4
-%
 1 0 obj
 << /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
 endobj
 2 0 obj
-<< /Length 3547 >>
+<< /Length 3631 >>
 stream
 BT
 /F1 11 Tf
@@ -13,76 +12,73 @@ BT
 1 0 0 1 50 760 Tm (## 1\) Date generale) Tj
 1 0 0 1 50 745 Tm (- **Nume proiect:** AudioHub) Tj
 1 0 0 1 50 730 Tm (- **Tip:** site de prezentare + catalog produse/servicii audio) Tj
-1 0 0 1 50 715 Tm (- **Scop:** promovarea si comercializarea echipamentelor audio, plus servicii profesionale) Tj
-1 0 0 1 50 700 Tm (\(consultanta, instalare, calibrare, mentenanta\)) Tj
-1 0 0 1 50 685 Tm (- **Locatie publica \(URL\):** **https://comert-cms.vercel.app/**) Tj
-1 0 0 1 50 670 Tm () Tj
-1 0 0 1 50 655 Tm (## 2\) Concept si public tinta) Tj
-1 0 0 1 50 640 Tm (AudioHub este construit ca un proiect orientat catre utilizatori care cauta solutii audio) Tj
-1 0 0 1 50 625 Tm (complete:) Tj
-1 0 0 1 50 610 Tm (- clienti individuali \(home audio, entertainment\);) Tj
-1 0 0 1 50 595 Tm (- pasionati de echipamente premium;) Tj
-1 0 0 1 50 580 Tm (- clienti business care au nevoie de configurari si servicii tehnice.) Tj
+1 0 0 1 50 715 Tm (- **Scop:** promovarea si comercializarea echipamentelor audio, plus servicii profesionale \(consultanta, instalare, calibrare, mentenanta\)) Tj
+1 0 0 1 50 700 Tm (- **Locatie publica \(URL\):** **https://comert-cms.vercel.app/**) Tj
+1 0 0 1 50 685 Tm () Tj
+1 0 0 1 50 670 Tm (## 2\) Concept si public tinta) Tj
+1 0 0 1 50 655 Tm (AudioHub este construit ca un proiect orientat catre utilizatori care cauta solutii audio complete:) Tj
+1 0 0 1 50 640 Tm (- clienti individuali \(home audio, entertainment\);) Tj
+1 0 0 1 50 625 Tm (- pasionati de echipamente premium;) Tj
+1 0 0 1 50 610 Tm (- clienti business care au nevoie de configurari si servicii tehnice.) Tj
+1 0 0 1 50 595 Tm () Tj
+1 0 0 1 50 580 Tm (Mesajul principal al platformei este livrarea unei experiente complete, de la selectia produselor pana la suportul post-vanzare.) Tj
 1 0 0 1 50 565 Tm () Tj
-1 0 0 1 50 550 Tm (Mesajul principal al platformei este livrarea unei experiente complete, de la selectia) Tj
-1 0 0 1 50 535 Tm (produselor pana la suportul post-vanzare.) Tj
-1 0 0 1 50 520 Tm () Tj
-1 0 0 1 50 505 Tm (## 3\) Structura site-ului) Tj
-1 0 0 1 50 490 Tm (Site-ul este organizat in mai multe pagini dedicate, ceea ce usureaza navigarea:) Tj
-1 0 0 1 50 475 Tm (- **Acasa** \(`index.html`\) - prezentarea brandului si acces rapid spre zonele importante;) Tj
-1 0 0 1 50 460 Tm (- **Categorii** \(`categorii.html`\) - organizarea produselor pe tipuri;) Tj
-1 0 0 1 50 445 Tm (- **Promotii** \(`promotii.html`\) - oferte active;) Tj
-1 0 0 1 50 430 Tm (- **Produse audio** \(`produse.html`\) - lista de produse cu pret si actiuni;) Tj
-1 0 0 1 50 415 Tm (- **Branduri** \(`branduri.html`\) - produse reprezentative pe producatori;) Tj
-1 0 0 1 50 400 Tm (- **Servicii** \(`servicii.html`\) - consultanta, instalare, calibrare, mentenanta;) Tj
-1 0 0 1 50 385 Tm (- **Portofoliu** \(`portofoliu-profi.html`\) - exemple de proiecte;) Tj
-1 0 0 1 50 370 Tm (- **Contact** \(`contact.html`\) - date de contact si formular;) Tj
-1 0 0 1 50 355 Tm (- **Cont / Favorite / Cos** \(`cont.html`, `favorite.html`, `cos.html`\) - elemente de) Tj
-1 0 0 1 50 340 Tm (experienta e-commerce.) Tj
-1 0 0 1 50 325 Tm () Tj
-1 0 0 1 50 310 Tm (## 4\) Functionalitati principale) Tj
-1 0 0 1 50 295 Tm (- Navigare clara, cu meniu principal si sectiuni tematice;) Tj
-1 0 0 1 50 280 Tm (- Cautare produse in antet;) Tj
-1 0 0 1 50 265 Tm (- Listare produse cu preturi si actiuni de tip "Adauga in cos";) Tj
-1 0 0 1 50 250 Tm (- Lista de favorite pentru salvarea produselor de interes;) Tj
-1 0 0 1 50 235 Tm (- Cos de cumparaturi cu actualizare a continutului;) Tj
-1 0 0 1 50 220 Tm (- Formular de contact pentru solicitari comerciale sau tehnice.) Tj
-1 0 0 1 50 205 Tm () Tj
-1 0 0 1 50 190 Tm (## 5\) Elemente de UI/UX) Tj
-1 0 0 1 50 175 Tm (- Design orientat spre claritate si acces rapid la informatie;) Tj
-1 0 0 1 50 160 Tm (- Sectiune hero cu mesaj de valoare si indicatori de incredere;) Tj
-1 0 0 1 50 145 Tm (- Carduri pentru produse si servicii;) Tj
-1 0 0 1 50 130 Tm (- Structura modulara pe pagini, utila pentru desktop si mobil;) Tj
-1 0 0 1 50 115 Tm (- Accent pe call-to-action-uri: oferta, consultanta, contact.) Tj
-1 0 0 1 50 100 Tm () Tj
-1 0 0 1 50 85 Tm (## 6\) Tehnologii utilizate) Tj
-1 0 0 1 50 70 Tm (- **HTML5** pentru structura;) Tj
-1 0 0 1 50 55 Tm (- **CSS3** pentru design, layout si responsive behavior;) Tj
+1 0 0 1 50 550 Tm (## 3\) Structura site-ului) Tj
+1 0 0 1 50 535 Tm (Site-ul este organizat in mai multe pagini dedicate, ceea ce usureaza navigarea:) Tj
+1 0 0 1 50 520 Tm (- **Acasa** \(`index.html`\) - prezentarea brandului si acces rapid spre zonele importante;) Tj
+1 0 0 1 50 505 Tm (- **Categorii** \(`categorii.html`\) - organizarea produselor pe tipuri;) Tj
+1 0 0 1 50 490 Tm (- **Promotii** \(`promotii.html`\) - oferte active;) Tj
+1 0 0 1 50 475 Tm (- **Produse audio** \(`produse.html`\) - lista de produse cu pret si actiuni;) Tj
+1 0 0 1 50 460 Tm (- **Branduri** \(`branduri.html`\) - produse reprezentative pe producatori;) Tj
+1 0 0 1 50 445 Tm (- **Servicii** \(`servicii.html`\) - consultanta, instalare, calibrare, mentenanta;) Tj
+1 0 0 1 50 430 Tm (- **Portofoliu** \(`portofoliu-profi.html`\) - exemple de proiecte;) Tj
+1 0 0 1 50 415 Tm (- **Contact** \(`contact.html`\) - date de contact si formular;) Tj
+1 0 0 1 50 400 Tm (- **Cont / Favorite / Cos** \(`cont.html`, `favorite.html`, `cos.html`\) - elemente de experienta e-commerce.) Tj
+1 0 0 1 50 385 Tm () Tj
+1 0 0 1 50 370 Tm (## 4\) Functionalitati principale) Tj
+1 0 0 1 50 355 Tm (- Navigare clara, cu meniu principal si sectiuni tematice;) Tj
+1 0 0 1 50 340 Tm (- Cautare produse in antet;) Tj
+1 0 0 1 50 325 Tm (- Listare produse cu preturi si actiuni de tip Adauga in cos";) Tj
+1 0 0 1 50 310 Tm (- Lista de favorite pentru salvarea produselor de interes;) Tj
+1 0 0 1 50 295 Tm (- Cos de cumparaturi cu actualizare a continutului;) Tj
+1 0 0 1 50 280 Tm (- Formular de contact pentru solicitari comerciale sau tehnice.) Tj
+1 0 0 1 50 265 Tm () Tj
+1 0 0 1 50 250 Tm (## 5\) Elemente de UI/UX) Tj
+1 0 0 1 50 235 Tm (- Design orientat spre claritate si acces rapid la informatie;) Tj
+1 0 0 1 50 220 Tm (- Sectiune hero cu mesaj de valoare si indicatori de incredere;) Tj
+1 0 0 1 50 205 Tm (- Carduri pentru produse si servicii;) Tj
+1 0 0 1 50 190 Tm (- Structura modulara pe pagini, utila pentru desktop si mobil;) Tj
+1 0 0 1 50 175 Tm (- Accent pe call-to-action-uri: oferta, consultanta, contact.) Tj
+1 0 0 1 50 160 Tm () Tj
+1 0 0 1 50 145 Tm (## 6\) Tehnologii utilizate) Tj
+1 0 0 1 50 130 Tm (- **HTML5** pentru structura;) Tj
+1 0 0 1 50 115 Tm (- **CSS3** pentru design, layout si responsive behavior;) Tj
+1 0 0 1 50 100 Tm (- **JavaScript** \(`app.js`\) pentru interactiuni \(cos/favorite/componente dinamice\).) Tj
+1 0 0 1 50 85 Tm () Tj
+1 0 0 1 50 70 Tm (## 7\) Concluzie) Tj
 ET
 endstream
 endobj
 3 0 obj
-<< /Type /Page /Parent 6 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 1 0 R >> >> /Contents 2 0 R >>
+<< /Type /Page /Parent 4 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 1 0 R >> >> /Contents 2 0 R >>
 endobj
 4 0 obj
-<< /Length 920 >>
+<< /Length 859 >>
 stream
 BT
 /F1 11 Tf
-1 0 0 1 50 790 Tm (- **JavaScript** \(`app.js`\) pentru interactiuni \(cos/favorite/componente dinamice\).) Tj
-1 0 0 1 50 775 Tm () Tj
-1 0 0 1 50 760 Tm (## 7\) Concluzie) Tj
-1 0 0 1 50 745 Tm (AudioHub este un proiect web coerent pentru domeniul comercial audio, cu structura clara,) Tj
-1 0 0 1 50 730 Tm (componenta vizuala moderna si functii utile de tip e-commerce. Site-ul este potrivit pentru) Tj
-1 0 0 1 50 715 Tm (prezentare academica deoarece demonstreaza:) Tj
-1 0 0 1 50 700 Tm (- organizare logica a informatiei;) Tj
-1 0 0 1 50 685 Tm (- integrarea elementelor de interfata si interactiune;) Tj
-1 0 0 1 50 670 Tm (- orientare practica spre conversie \(produse + servicii + contact\).) Tj
-1 0 0 1 50 655 Tm () Tj
-1 0 0 1 50 640 Tm (---) Tj
-1 0 0 1 50 625 Tm () Tj
-1 0 0 1 50 610 Tm (### Locatia site-ului \(de inclus in prezentare\)) Tj
-1 0 0 1 50 595 Tm (**https://comert-cms.vercel.app/**) Tj
+1 0 0 1 50 790 Tm (AudioHub este un proiect web coerent pentru domeniul comercial audio, cu structura clara, componenta vizuala moderna si functii utile de tip e-commerce. Site-ul este potrivit pentru prezentare academica deoarece demonstreaza:) Tj
+1 0 0 1 50 775 Tm (- organizare logica a informatiei;) Tj
+1 0 0 1 50 760 Tm (- integrarea elementelor de interfata si interactiune;) Tj
+1 0 0 1 50 745 Tm (- orientare practica spre conversie \(produse + servicii + contact\).) Tj
+1 0 0 1 50 730 Tm () Tj
+1 0 0 1 50 715 Tm (---) Tj
+1 0 0 1 50 700 Tm () Tj
+1 0 0 1 50 685 Tm (**https://comert-cms.vercel.app/**) Tj
+1 0 0 1 50 670 Tm (**https://comert-cms.vercel.app/**) Tj
+1 0 0 1 50 655 Tm (**https://comert-cms.vercel.app/**) Tj
+1 0 0 1 50 640 Tm (**https://comert-cms.vercel.app/**) Tj
+1 0 0 1 50 625 Tm (**https://comert-cms.vercel.app/**) Tj
 ET
 endstream
 endobj
@@ -98,15 +94,15 @@ endobj
 xref
 0 8
 0000000000 65535 f 
-0000000015 00000 n 
-0000000085 00000 n 
-0000003684 00000 n 
-0000003810 00000 n 
-0000004781 00000 n 
-0000004907 00000 n 
-0000004972 00000 n 
+0000000009 00000 n 
+0000000079 00000 n 
+0000003761 00000 n 
+0000003887 00000 n 
+0000004796 00000 n 
+0000004922 00000 n 
+0000004987 00000 n 
 trailer
 << /Size 8 /Root 7 0 R >>
 startxref
-5021
+5036
 %%EOF
