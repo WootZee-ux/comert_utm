@@ -1,16 +1,43 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" role="img" aria-label="Sony SRS-XG300">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" role="img" aria-label="Boxă portabilă">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#0b1d3a"/>
-      <stop offset="100%" stop-color="#2563eb"/>
+      <stop offset="0%" stop-color="#10224a"/>
+      <stop offset="100%" stop-color="#3155d4"/>
     </linearGradient>
+    <linearGradient id="speaker-body" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1e293b"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+    <radialGradient id="cone" cx="50%" cy="50%" r="55%">
+      <stop offset="0%" stop-color="#bfdbfe"/>
+      <stop offset="100%" stop-color="#1d4ed8"/>
+    </radialGradient>
   </defs>
+
   <rect width="1200" height="800" fill="url(#bg)"/>
-  <g fill="none" stroke="#93c5fd" stroke-width="16" opacity="0.35">
-    <circle cx="170" cy="140" r="90"/>
-    <circle cx="1030" cy="650" r="120"/>
-    <rect x="460" y="130" width="280" height="160" rx="24"/>
+  <ellipse cx="600" cy="690" rx="360" ry="70" fill="#0b1533" opacity="0.45"/>
+
+  <g opacity="0.28" fill="none" stroke="#93c5fd" stroke-width="14">
+    <circle cx="190" cy="170" r="92"/>
+    <circle cx="1010" cy="620" r="120"/>
+    <rect x="450" y="100" width="300" height="120" rx="26"/>
   </g>
-  <text x="600" y="430" fill="#e2e8f0" font-family="Arial, Helvetica, sans-serif" font-size="64" font-weight="700" text-anchor="middle">Sony SRS-XG300</text>
-  <text x="600" y="500" fill="#bfdbfe" font-family="Arial, Helvetica, sans-serif" font-size="34" text-anchor="middle">Imagine reprezentativă produs</text>
+
+  <rect x="300" y="210" width="600" height="430" rx="56" fill="url(#speaker-body)" stroke="#a5b4fc" stroke-width="8"/>
+
+  <g transform="translate(410 280)">
+    <circle cx="0" cy="0" r="0" fill="none"/>
+    <circle cx="0" cy="0" r="0" fill="none"/>
+    <g transform="translate(0 0)">
+      <circle cx="190" cy="140" r="110" fill="#0b1228" stroke="#94a3b8" stroke-width="10"/>
+      <circle cx="190" cy="140" r="74" fill="url(#cone)"/>
+      <circle cx="190" cy="140" r="24" fill="#e2e8f0"/>
+
+      <circle cx="190" cy="340" r="86" fill="#0b1228" stroke="#94a3b8" stroke-width="10"/>
+      <circle cx="190" cy="340" r="56" fill="url(#cone)"/>
+      <circle cx="190" cy="340" r="18" fill="#e2e8f0"/>
+    </g>
+  </g>
+
+  <rect x="535" y="235" width="130" height="24" rx="12" fill="#475569" opacity="0.7"/>
 </svg>
