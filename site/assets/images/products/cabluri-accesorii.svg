@@ -1,0 +1,30 @@
+<svg width="320" height="180" viewBox="0 0 320 180" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Cabluri și accesorii audio</title>
+  <desc id="desc">Ilustrație stilizată cu două cabluri audio și doi conectori jack.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="320" y2="180" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1A2456"/>
+      <stop offset="1" stop-color="#2D4FCB"/>
+    </linearGradient>
+    <linearGradient id="cable" x1="38" y1="100" x2="282" y2="100" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#E3EBFF"/>
+      <stop offset="1" stop-color="#B6C7FF"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="320" height="180" rx="18" fill="url(#bg)"/>
+  <ellipse cx="160" cy="150" rx="95" ry="15" fill="#162A7A" opacity="0.75"/>
+
+  <path d="M42 98C72 70 112 70 142 98" stroke="url(#cable)" stroke-width="10" stroke-linecap="round"/>
+  <path d="M178 102C210 132 246 132 278 102" stroke="url(#cable)" stroke-width="10" stroke-linecap="round"/>
+
+  <rect x="24" y="86" width="28" height="24" rx="7" fill="#0C1334" stroke="#93A5E8" stroke-width="2"/>
+  <rect x="268" y="90" width="28" height="24" rx="7" fill="#0C1334" stroke="#93A5E8" stroke-width="2"/>
+
+  <rect x="14" y="92" width="12" height="12" rx="2" fill="#E9F1FF"/>
+  <rect x="296" y="96" width="10" height="10" rx="2" fill="#E9F1FF"/>
+
+  <circle cx="160" cy="72" r="14" fill="#1B2D82" stroke="#AFC0FF" stroke-width="3"/>
+  <rect x="154" y="50" width="12" height="12" rx="3" fill="#E8F0FF"/>
+  <circle cx="160" cy="120" r="11" fill="#1B2D82" stroke="#AFC0FF" stroke-width="3"/>
+</svg>
