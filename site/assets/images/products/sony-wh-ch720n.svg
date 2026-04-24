@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-labelledby="title desc">
+  <title id="title">Sony WH-CH720N</title>
+  <desc id="desc">Ilustrație pentru căștile wireless Sony WH-CH720N.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#111827"/>
+      <stop offset="100%" stop-color="#374151"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#bg)"/>
+  <rect x="80" y="80" width="1040" height="640" rx="36" fill="#0b1220" stroke="#4b5563" stroke-width="4"/>
+
+  <path d="M360 430a240 240 0 0 1 480 0" fill="none" stroke="#f9fafb" stroke-width="42" stroke-linecap="round"/>
+  <rect x="298" y="410" width="110" height="170" rx="45" fill="#f3f4f6"/>
+  <rect x="792" y="410" width="110" height="170" rx="45" fill="#f3f4f6"/>
+  <rect x="328" y="438" width="50" height="116" rx="20" fill="#9ca3af"/>
+  <rect x="822" y="438" width="50" height="116" rx="20" fill="#9ca3af"/>
+
+  <text x="600" y="165" fill="#d1d5db" font-family="Arial, Helvetica, sans-serif" font-size="38" text-anchor="middle">Căști wireless</text>
+  <text x="600" y="225" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="54" font-weight="700" text-anchor="middle">Sony WH-CH720N</text>
+</svg>

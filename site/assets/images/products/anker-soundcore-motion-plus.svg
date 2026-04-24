@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-labelledby="title desc">
+  <title id="title">Anker Soundcore Motion+</title>
+  <desc id="desc">Ilustrație pentru boxa portabilă Anker Soundcore Motion+.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#111827"/>
+    </linearGradient>
+    <linearGradient id="grill" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#4b5563"/>
+      <stop offset="100%" stop-color="#1f2937"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#bg)"/>
+  <rect x="80" y="80" width="1040" height="640" rx="36" fill="#0b1220" stroke="#374151" stroke-width="4"/>
+
+  <rect x="250" y="350" width="700" height="210" rx="52" fill="url(#grill)" stroke="#9ca3af" stroke-width="5"/>
+  <circle cx="350" cy="455" r="64" fill="none" stroke="#d1d5db" stroke-width="8"/>
+  <circle cx="850" cy="455" r="64" fill="none" stroke="#d1d5db" stroke-width="8"/>
+  <circle cx="350" cy="455" r="22" fill="#9ca3af"/>
+  <circle cx="850" cy="455" r="22" fill="#9ca3af"/>
+  <rect x="535" y="390" width="130" height="10" rx="5" fill="#d1d5db" opacity="0.8"/>
+  <rect x="535" y="410" width="130" height="10" rx="5" fill="#d1d5db" opacity="0.8"/>
+
+  <text x="600" y="165" fill="#d1d5db" font-family="Arial, Helvetica, sans-serif" font-size="38" text-anchor="middle">Boxe portabile</text>
+  <text x="600" y="225" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="54" font-weight="700" text-anchor="middle">Anker Soundcore Motion+</text>
+</svg>
