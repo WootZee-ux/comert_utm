@@ -54,5 +54,8 @@ AudioHub este un proiect web coerent pentru domeniul comercial audio, cu structu
 
 ---
 
-### Locația site-ului (de inclus în prezentare)
+**https://comert-cms.vercel.app/**
+**https://comert-cms.vercel.app/**
+**https://comert-cms.vercel.app/**
+**https://comert-cms.vercel.app/**
 **https://comert-cms.vercel.app/**
