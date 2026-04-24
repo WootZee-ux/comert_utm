@@ -213,6 +213,42 @@
       .replaceAll('-', ' ')
       .replace(/\b\w/g, (char) => char.toUpperCase());
 
+  const normalizeText = (value) =>
+    String(value || '')
+      .toLowerCase()
+      .normalize('NFD')
+      .replace(/[\u0300-\u036f]/g, '')
+      .trim();
+
+  const setupSearchForms = () => {
+    const searchForms = document.querySelectorAll('.search');
+    if (searchForms.length === 0) return;
+
+    const params = new URLSearchParams(window.location.search);
+    const initialQuery = params.get('q') || '';
+
+    searchForms.forEach((form) => {
+      const input = form.querySelector('input[type="search"]');
+      if (!input) return;
+
+      if (initialQuery) {
+        input.value = initialQuery;
+      }
+
+      form.addEventListener('submit', (event) => {
+        event.preventDefault();
+        const query = input.value.trim();
+        const targetUrl = new URL('produse.html', window.location.href);
+
+        if (query) {
+          targetUrl.searchParams.set('q', query);
+        }
+
+        window.location.href = targetUrl.toString();
+      });
+    });
+  };
+
   const applyFilters = () => {
     const cards = Array.from(document.querySelectorAll('.js-filter-card'));
     if (cards.length === 0) return;
@@ -220,6 +256,8 @@
     const params = new URLSearchParams(window.location.search);
     const category = (params.get('category') || '').trim().toLowerCase();
     const brand = (params.get('brand') || '').trim().toLowerCase();
+    const rawSearchQuery = (params.get('q') || '').trim();
+    const searchQuery = normalizeText(rawSearchQuery);
     const titleNode = document.querySelector('.js-filter-title');
     const emptyNode = document.querySelector('.js-filter-empty');
 
@@ -228,14 +266,24 @@
     cards.forEach((card) => {
       const categoryMatch = !category || card.dataset.category === category;
       const brandMatch = !brand || card.dataset.brand === brand;
-      const isVisible = categoryMatch && brandMatch;
+      const searchableText = normalizeText(card.textContent);
+      const queryMatch = !searchQuery || searchableText.includes(searchQuery);
+      const isVisible = categoryMatch && brandMatch && queryMatch;
 
       card.hidden = !isVisible;
       if (isVisible) visible += 1;
     });
 
     if (titleNode) {
-      if (category && brand) {
+      if (searchQuery && category && brand) {
+        titleNode.textContent = `Căutare "${rawSearchQuery}" + categoria "${prettyName(category)}" + brandul "${prettyName(brand)}".`;
+      } else if (searchQuery && category) {
+        titleNode.textContent = `Căutare "${rawSearchQuery}" + categoria "${prettyName(category)}".`;
+      } else if (searchQuery && brand) {
+        titleNode.textContent = `Căutare "${rawSearchQuery}" + brandul "${prettyName(brand)}".`;
+      } else if (searchQuery) {
+        titleNode.textContent = `Rezultate pentru "${rawSearchQuery}".`;
+      } else if (category && brand) {
         titleNode.textContent = `Filtru activ: categoria "${prettyName(category)}" și brandul "${prettyName(brand)}".`;
       } else if (category) {
         titleNode.textContent = `Filtru activ: categoria "${prettyName(category)}".`;
@@ -424,6 +472,7 @@
     });
   }
 
+  setupSearchForms();
   applyFilters();
   renderCart();
   renderFavorites();
