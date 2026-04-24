@@ -476,12 +476,49 @@ footer {
   display: flex;
   gap: 0.6rem;
   flex-wrap: wrap;
+  margin-top: 0.8rem;
 }
 
-.tile-links a {
-  color: var(--primary);
+.tile-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 120px;
+  padding: 0.5rem 0.85rem;
+  border-radius: 999px;
+  border: 1px solid var(--line);
+  color: var(--text);
   text-decoration: none;
   font-weight: 700;
+  font-size: 0.93rem;
+  transition: transform 0.15s ease, box-shadow 0.2s ease, border-color 0.2s ease, background 0.2s ease, color 0.2s ease;
+}
+
+.tile-link:hover {
+  transform: translateY(-1px);
+}
+
+.tile-link-products {
+  background: var(--primary);
+  border-color: var(--primary);
+  color: #fff;
+  box-shadow: 0 8px 14px rgba(31, 88, 231, 0.2);
+}
+
+.tile-link-products:hover {
+  background: var(--primary-dark);
+  border-color: var(--primary-dark);
+}
+
+.tile-link-services {
+  background: #eef3ff;
+  border-color: #c8d7ff;
+  color: var(--primary-dark);
+}
+
+.tile-link-services:hover {
+  background: #dfe9ff;
+  border-color: #b1c6ff;
 }
 
 .brand-list a {
