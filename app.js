@@ -249,6 +249,28 @@
     });
   };
 
+  const setupMainNavigation = () => {
+    const mainNav = document.querySelector('.main-nav');
+    if (!mainNav) return;
+
+    const links = Array.from(mainNav.querySelectorAll('a[href]'));
+    if (links.length === 0) return;
+
+    const currentPage = window.location.pathname.split('/').pop() || 'index.html';
+
+    links.forEach((link) => {
+      const linkPath = new URL(link.getAttribute('href'), window.location.href).pathname.split('/').pop();
+      const isActive = linkPath === currentPage;
+      link.classList.toggle('is-active', isActive);
+
+      if (isActive) {
+        link.setAttribute('aria-current', 'page');
+      } else {
+        link.removeAttribute('aria-current');
+      }
+    });
+  };
+
   const applyFilters = () => {
     const cards = Array.from(document.querySelectorAll('.js-filter-card'));
     if (cards.length === 0) return;
@@ -473,6 +495,7 @@
   }
 
   setupSearchForms();
+  setupMainNavigation();
   applyFilters();
   renderCart();
   renderFavorites();
