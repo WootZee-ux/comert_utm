@@ -18,24 +18,38 @@
       </div>
       <p class="cart-intro">Revizuiește produsele, verifică totalul și finalizează comanda când ești gata.</p>
 
-      <ul class="cart-items js-cart-items">
-        <li class="cart-empty">Coșul este gol momentan.</li>
-      </ul>
+      <div class="cart-layout">
+        <div>
+          <ul class="cart-items js-cart-items">
+            <li class="cart-empty">Coșul este gol momentan.</li>
+          </ul>
 
-      <div class="cart-summary">
-        <p class="cart-total">Total de plată: <strong class="js-cart-total">0 lei</strong></p>
-        <p class="cart-note">Prețurile includ TVA. Costul de transport se calculează la pasul următor.</p>
-      </div>
+          <div class="cart-summary">
+            <p class="cart-total">Total de plată: <strong class="js-cart-total">0 lei</strong></p>
+            <p class="cart-note">Prețurile includ TVA. Costul de transport se calculează la pasul următor.</p>
+          </div>
 
-      <div class="cart-actions">
-        <button class="btn primary js-checkout">Simulează plata</button>
-        <button class="btn js-clear-cart">Golește coșul</button>
+          <div class="cart-actions">
+            <button class="btn primary js-checkout">Simulează plata</button>
+            <button class="btn js-clear-cart">Golește coșul</button>
+          </div>
+          <p class="payment-status js-payment-status"></p>
+        </div>
+
+        <aside class="cart-aside" aria-label="Beneficii comandă AudioHub">
+          <h2>De ce merită să comanzi acum</h2>
+          <ul class="cart-perks">
+            <li><strong>Consultanță în 24h</strong><span>Primești recomandări tehnice clare de la specialiști AudioHub.</span></li>
+            <li><strong>Montaj & calibrare</strong><span>Opțional, instalare profesională direct la locația ta.</span></li>
+            <li><strong>Retur simplificat</strong><span>Asistență dedicată pentru retur și schimb de produs.</span></li>
+          </ul>
+          <p class="cart-shipping"><strong>Livrare estimată:</strong> 24-48h pentru produsele din stoc.</p>
+        </aside>
       </div>
-      <p class="payment-status js-payment-status"></p>
     </section>
   </main>
 
-  <footer><div class="container footer-content"><p>© 2026 AudioHub. Toate drepturile rezervate.</p></div></footer>
+  <footer><div class="container footer-content"><p>© 2026 AudioHub. Toate drepturile rezervate.(proiect UTM)</p></div></footer>
   <script src="app.js"></script>
 </body>
 </html>
