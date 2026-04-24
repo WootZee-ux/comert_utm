@@ -787,6 +787,102 @@ footer {
   box-shadow: 0 14px 28px rgba(7, 12, 30, 0.48);
 }
 
+.account-layout {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.account-card {
+  border: 1px solid #2f3e66;
+  border-radius: 14px;
+  padding: 1rem;
+  background: rgba(11, 20, 40, 0.7);
+}
+
+.account-form {
+  display: grid;
+  gap: 0.75rem;
+}
+
+.account-form label {
+  display: grid;
+  gap: 0.3rem;
+  font-weight: 600;
+  font-size: 0.95rem;
+}
+
+.account-form input,
+.account-form textarea {
+  border: 1px solid #33446d;
+  border-radius: 10px;
+  padding: 0.65rem 0.75rem;
+  background: #0d1732;
+  color: #edf2ff;
+}
+
+.account-form input:focus-visible,
+.account-form textarea:focus-visible {
+  outline: none;
+  border-color: #718dff;
+  box-shadow: 0 0 0 3px rgba(113, 141, 255, 0.16);
+}
+
+.form-status {
+  margin: 0;
+  min-height: 1.2rem;
+  font-size: 0.9rem;
+}
+
+.form-status[data-state="success"] {
+  color: #9ce8bf;
+}
+
+.form-status[data-state="error"] {
+  color: #ffb2b2;
+}
+
+.order-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 0.75rem;
+}
+
+.order-item {
+  border: 1px solid #354977;
+  border-radius: 14px;
+  padding: 0.85rem;
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  align-items: flex-start;
+  background: rgba(10, 18, 36, 0.8);
+}
+
+.order-id {
+  margin: 0;
+  font-weight: 800;
+}
+
+.order-meta,
+.order-products,
+.order-empty {
+  margin: 0.2rem 0 0;
+  color: #b6c3e8;
+}
+
+.order-empty {
+  border: 1px dashed #445b8f;
+  border-radius: 12px;
+  padding: 0.85rem;
+}
+
+.order-empty a {
+  color: #a9ebff;
+}
+
 @media (max-width: 920px) {
   .header-main {
     grid-template-columns: 1fr;
@@ -801,6 +897,10 @@ footer {
   }
 
   .hero-stats {
+    grid-template-columns: 1fr;
+  }
+
+  .account-layout {
     grid-template-columns: 1fr;
   }
 
