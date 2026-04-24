@@ -590,6 +590,113 @@ footer {
   color: var(--muted);
 }
 
+.account-page {
+  --bg: #0b1020;
+  --surface: #121a31;
+  --text: #eef3ff;
+  --muted: #aeb7d1;
+  --line: #2b3554;
+  --primary: #7c8fff;
+  --primary-dark: #6075ef;
+  --accent: #20d6ff;
+  background:
+    radial-gradient(circle at 8% 8%, rgba(126, 103, 255, 0.26) 0%, transparent 40%),
+    radial-gradient(circle at 88% 12%, rgba(32, 214, 255, 0.25) 0%, transparent 44%),
+    linear-gradient(145deg, #080d1a 0%, #111a33 55%, #0a1225 100%);
+}
+
+.account-page .site-header {
+  background: color-mix(in srgb, #0f1730 90%, transparent);
+  border-bottom-color: #2a3557;
+}
+
+.account-page .logo {
+  color: #f3f7ff;
+}
+
+.account-page .search input {
+  background: #0d162f;
+  border-color: #33436f;
+  color: #ecf3ff;
+}
+
+.account-page .section,
+.account-page footer {
+  border-color: #2a3557;
+  background: linear-gradient(160deg, rgba(17, 27, 50, 0.96) 0%, rgba(18, 26, 46, 0.92) 100%);
+  box-shadow: 0 16px 34px rgba(3, 8, 20, 0.42);
+}
+
+.account-page .section-head a,
+.account-page .tile-links a {
+  color: #98e7ff;
+}
+
+.account-hero {
+  position: relative;
+  overflow: hidden;
+  isolation: isolate;
+}
+
+.account-hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -2;
+  background:
+    linear-gradient(115deg, rgba(10, 18, 37, 0.88) 18%, rgba(10, 18, 37, 0.15) 68%),
+    url("assets/images/pexels-1540406.svg") center/cover no-repeat;
+}
+
+.account-hero::after {
+  content: "";
+  position: absolute;
+  inset: auto 0 0;
+  height: 46%;
+  z-index: -1;
+  background: linear-gradient(to top, rgba(8, 12, 24, 0.85), rgba(8, 12, 24, 0));
+}
+
+.account-intro {
+  max-width: 65ch;
+  margin-top: 0;
+}
+
+.account-kpis {
+  display: grid;
+  gap: 0.85rem;
+  grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+}
+
+.account-kpis article {
+  border: 1px solid rgba(137, 164, 255, 0.32);
+  border-radius: 12px;
+  padding: 0.7rem 0.85rem;
+  background: rgba(9, 16, 34, 0.72);
+  backdrop-filter: blur(3px);
+}
+
+.account-kpis span {
+  display: block;
+  color: #d8e4ff;
+  font-size: 0.85rem;
+}
+
+.account-kpis strong {
+  font-size: 1.3rem;
+  letter-spacing: 0.2px;
+}
+
+.account-page .tile {
+  background: #141f3d;
+  border-color: #334777;
+}
+
+.account-page .tile:hover,
+.account-page .service-grid article:hover {
+  box-shadow: 0 14px 28px rgba(7, 12, 30, 0.48);
+}
+
 @media (max-width: 920px) {
   .header-main {
     grid-template-columns: 1fr;
