@@ -1,9 +1,18 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" role="img" aria-label="Imagine produs 1540406">
+<svg xmlns='http://www.w3.org/2000/svg' width='1200' height='800' viewBox='0 0 1200 800' role='img' aria-label='Sony WH-CH720N'>
   <defs>
-    <linearGradient id="bg-1540406" x1="0" x2="1" y1="0" y2="1">
-      <stop offset="0%" stop-color="#1f2937"/>
-      <stop offset="100%" stop-color="#0ea5e9"/>
+    <linearGradient id='bg' x1='0' y1='0' x2='1' y2='1'>
+      <stop offset='0%' stop-color='#1e293b'/>
+      <stop offset='100%' stop-color='#60a5fa'/>
     </linearGradient>
   </defs>
-  <rect width="1200" height="800" fill="url(#bg-1540406)"/>
+  <rect width='1200' height='800' fill='url(#bg)'/>
+  <circle cx='1040' cy='160' r='120' fill='rgba(255,255,255,0.12)'/>
+  <circle cx='170' cy='640' r='160' fill='rgba(255,255,255,0.08)'/>
+  <path d='M400 320a200 200 0 0 1 400 0' fill='none' stroke='#dbeafe' stroke-width='20' stroke-linecap='round'/>
+  <rect x='360' y='300' width='80' height='170' rx='36' fill='#0b1220' stroke='#93c5fd' stroke-width='8'/>
+  <rect x='760' y='300' width='80' height='170' rx='36' fill='#0b1220' stroke='#93c5fd' stroke-width='8'/>
+  <rect x='450' y='220' width='300' height='35' rx='18' fill='#bfdbfe' opacity='0.8'/>
+  <circle cx='600' cy='330' r='26' fill='#7dd3fc'/>
+  <text x='70' y='92' fill='#e2e8f0' font-size='34' font-family='Inter, Arial, sans-serif' font-weight='700'>CĂȘTI WIRELESS</text>
+  <text x='70' y='138' fill='white' font-size='52' font-family='Inter, Arial, sans-serif' font-weight='800'>Sony WH-CH720N</text>
 </svg>

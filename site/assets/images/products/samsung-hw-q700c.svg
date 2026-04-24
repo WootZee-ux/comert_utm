@@ -1,9 +1,19 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" role="img" aria-label="Imagine produs 1279107">
+<svg xmlns='http://www.w3.org/2000/svg' width='1200' height='800' viewBox='0 0 1200 800' role='img' aria-label='Samsung HW-Q700C'>
   <defs>
-    <linearGradient id="bg-1279107" x1="0" x2="1" y1="0" y2="1">
-      <stop offset="0%" stop-color="#1f2937"/>
-      <stop offset="100%" stop-color="#0ea5e9"/>
+    <linearGradient id='bg' x1='0' y1='0' x2='1' y2='1'>
+      <stop offset='0%' stop-color='#0f172a'/>
+      <stop offset='100%' stop-color='#2563eb'/>
     </linearGradient>
   </defs>
-  <rect width="1200" height="800" fill="url(#bg-1279107)"/>
+  <rect width='1200' height='800' fill='url(#bg)'/>
+  <circle cx='1040' cy='160' r='120' fill='rgba(255,255,255,0.12)'/>
+  <circle cx='170' cy='640' r='160' fill='rgba(255,255,255,0.08)'/>
+  <rect x='220' y='300' width='760' height='120' rx='55' fill='#0b1220' stroke='#93c5fd' stroke-width='6'/>
+  <circle cx='320' cy='360' r='28' fill='none' stroke='#bfdbfe' stroke-width='8'/>
+  <circle cx='880' cy='360' r='28' fill='none' stroke='#bfdbfe' stroke-width='8'/>
+  <rect x='430' y='348' width='340' height='22' rx='11' fill='#dbeafe' opacity='0.85'/>
+  <circle cx='600' cy='248' r='55' fill='none' stroke='#7dd3fc' stroke-width='10'/>
+  <path d='M600 218v60M570 248h60' stroke='#7dd3fc' stroke-width='10' stroke-linecap='round'/>
+  <text x='70' y='92' fill='#e2e8f0' font-size='34' font-family='Inter, Arial, sans-serif' font-weight='700'>SOUNDBAR 3.1.2</text>
+  <text x='70' y='138' fill='white' font-size='52' font-family='Inter, Arial, sans-serif' font-weight='800'>Samsung HW-Q700C</text>
 </svg>

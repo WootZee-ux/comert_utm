@@ -1,9 +1,21 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" role="img" aria-label="Imagine produs 744318">
+<svg xmlns='http://www.w3.org/2000/svg' width='1200' height='800' viewBox='0 0 1200 800' role='img' aria-label='Bose SoundLink Flex'>
   <defs>
-    <linearGradient id="bg-744318" x1="0" x2="1" y1="0" y2="1">
-      <stop offset="0%" stop-color="#1f2937"/>
-      <stop offset="100%" stop-color="#0ea5e9"/>
+    <linearGradient id='bg' x1='0' y1='0' x2='1' y2='1'>
+      <stop offset='0%' stop-color='#111827'/>
+      <stop offset='100%' stop-color='#0ea5e9'/>
     </linearGradient>
   </defs>
-  <rect width="1200" height="800" fill="url(#bg-744318)"/>
+  <rect width='1200' height='800' fill='url(#bg)'/>
+  <circle cx='1040' cy='160' r='120' fill='rgba(255,255,255,0.12)'/>
+  <circle cx='170' cy='640' r='160' fill='rgba(255,255,255,0.08)'/>
+  <rect x='290' y='210' width='620' height='210' rx='40' fill='#0b1220' stroke='#93c5fd' stroke-width='6'/>
+  <circle cx='420' cy='315' r='56' fill='none' stroke='#bfdbfe' stroke-width='10'/>
+  <circle cx='420' cy='315' r='24' fill='#dbeafe'/>
+  <circle cx='780' cy='315' r='56' fill='none' stroke='#bfdbfe' stroke-width='10'/>
+  <circle cx='780' cy='315' r='24' fill='#dbeafe'/>
+  <rect x='560' y='276' width='90' height='12' rx='6' fill='#7dd3fc'/>
+  <rect x='560' y='304' width='120' height='12' rx='6' fill='#93c5fd'/>
+  <rect x='560' y='332' width='70' height='12' rx='6' fill='#bfdbfe'/>
+  <text x='70' y='92' fill='#e2e8f0' font-size='34' font-family='Inter, Arial, sans-serif' font-weight='700'>BOXĂ OUTDOOR</text>
+  <text x='70' y='138' fill='white' font-size='52' font-family='Inter, Arial, sans-serif' font-weight='800'>Bose SoundLink Flex</text>
 </svg>
