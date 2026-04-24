@@ -37,13 +37,14 @@
 
     if (cartListNode) {
       if (cart.length === 0) {
-        cartListNode.innerHTML = '<li>Coșul este gol momentan.</li>';
+        cartListNode.innerHTML = '<li class="cart-empty">Coșul este gol momentan. Adaugă produse din pagina de produse pentru a continua.</li>';
       } else {
         cartListNode.innerHTML = cart
-          .map(
-            (item) =>
-              `<li><span>${item.name} <small>(${item.type})</small></span><strong>${item.quantity} x ${formatPrice(item.price)}</strong></li>`
-          )
+          .map((item) => {
+            const lineTotal = item.price * item.quantity;
+
+            return `<li class="cart-item"><div class="cart-item-main"><span class="cart-item-name">${item.name}</span><small class="cart-item-type">${item.type}</small></div><div class="cart-item-price"><span class="cart-item-qty">${item.quantity} x ${formatPrice(item.price)}</span><strong>${formatPrice(lineTotal)}</strong></div></li>`;
+          })
           .join('');
       }
     }

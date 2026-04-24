@@ -12,10 +12,25 @@
 
   <main class="container">
     <section class="section page-section cart-panel">
-      <div class="section-head"><h1>Coșul tău</h1></div>
-      <ul class="cart-items js-cart-items"><li>Coșul este gol momentan.</li></ul>
-      <p class="cart-total">Total: <strong class="js-cart-total">0 lei</strong></p>
-      <div class="cart-actions"><button class="btn primary js-checkout">Simulează plata</button><button class="btn js-clear-cart">Golește coșul</button></div>
+      <div class="section-head">
+        <h1>Coșul tău</h1>
+        <a href="produse.html">Continuă cumpărăturile</a>
+      </div>
+      <p class="cart-intro">Revizuiește produsele, verifică totalul și finalizează comanda când ești gata.</p>
+
+      <ul class="cart-items js-cart-items">
+        <li class="cart-empty">Coșul este gol momentan.</li>
+      </ul>
+
+      <div class="cart-summary">
+        <p class="cart-total">Total de plată: <strong class="js-cart-total">0 lei</strong></p>
+        <p class="cart-note">Prețurile includ TVA. Costul de transport se calculează la pasul următor.</p>
+      </div>
+
+      <div class="cart-actions">
+        <button class="btn primary js-checkout">Simulează plata</button>
+        <button class="btn js-clear-cart">Golește coșul</button>
+      </div>
       <p class="payment-status js-payment-status"></p>
     </section>
   </main>
